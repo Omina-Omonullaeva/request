@@ -1,0 +1,201 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/encode-sans-v19-latin-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/encode-sans-v19-latin-600.woff2') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 96px 0 86px;
+    background-color: #F7F6F3;
+}
+
+.request__title {
+    text-align: center;
+    color: #413529;
+    font-size: 55px;
+    font-family: "Encode Sans";
+    font-weight: 600;
+    line-height: 71.80px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.request__desc {
+    text-align: center;
+    color: #413529;
+    font-size: 18px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 25px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-bottom: 51px;
+}
+
+.request__subwrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+
+.request__inner {
+    width: 540px;
+    padding: 0 10px;
+}
+
+.request__subtitle {
+    margin: 0;
+    margin-bottom: 29px;
+    color: black;
+    font-size: 35px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 42px;
+    word-wrap: break-word
+}
+
+
+.request__text {
+    color: #5C5C5C;
+    font-size: 14px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-top: 29px;
+}
+
+.request__text::after {
+    display: block;
+    margin-top: 29px;
+    margin-bottom: 29px;
+    background-image: url("/images/line.svg");
+    width: 520px;
+    height: 6.14px;
+    content: "";
+}
+
+.request__subtext {
+    color: #202020;
+    font-size: 14px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.request__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 22.77px;
+}
+
+.request__link {
+    display: flex;
+    color: #202020;
+    font-size: 14px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    text-decoration: none;
+    width: 375px;
+}
+
+.request__link::before {
+    display: block;
+    content: "Phone:";
+    margin-right: 29px;
+}
+
+.request__link:nth-child(2):before {
+    margin-right: 35px;
+    content: "Email:";
+}
+
+.request__link:nth-child(3):before {
+    margin-right: 20px;
+    content: "Address:";
+}
+
+.request__list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    width: 189px;
+}
+
+.request__subinner {
+    background-color: white;
+    padding: 25px 60px;
+    width: 700px;
+    border-left: 1px solid #000;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    gap: 19px;
+}
+
+.form__title {
+    margin: 0;
+    margin-top: 50px;
+    margin-bottom: 64px;
+    color: #413529;
+    font-size: 35px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 42px;
+    word-wrap: break-word
+}
+
+.form__input {
+    padding: 20px;
+    color: #A7A7A7;
+    font-size: 16px;
+    font-family: "Encode Sans";
+    font-weight: 400;
+    line-height: 19.20px;
+    word-wrap: break-word;
+    color: #A7A7A7;
+    border: 1px solid #A7A7A7;
+}
+
+.form__btn {
+    color: white;
+    font-size: 23px;
+    font-family: "Encode Sans";
+    font-weight: 600;
+    line-height: 27.60px;
+    word-wrap: break-word;
+    background-color: #94785D;
+    border: transparent;
+    padding: 20px;
+}
